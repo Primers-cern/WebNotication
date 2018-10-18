@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>养鸡中心</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .pageWrapper {
+      height: 100%;
+      max-width: 600px;
+      margin: 0 auto;    
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px;
+    }
+
+    .header-logo {
+
+      user-select:none;
+      font-size: 28px;
+      line-height: 1;
+      font-weight: 600;
+      background-image: -webkit-linear-gradient(left, #0479ec,#999);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      /*-webkit-mask-image:-webkit-gradient(linear, 0 0, 0 bottom, from(pink), to(rgba(20, 20, 100, 0)));*/
+    }
+
+    .header-btn {
+      font-size: 15px;
+      padding: 6px 15px;
+      background-color: #0479ec;
+      letter-spacing: 1px;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 1px 1px 11px rgba(98,129,157,.4)
+    }
+    .header-btn:hover {
+      background-color: #4079ec;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="pageWrapper">
+    <div class="header">
+      <div class="header-logo">Count</div>
+      <button class="header-btn">Down</button>
+    </div>
+  </div>
+</body>
+</html>
